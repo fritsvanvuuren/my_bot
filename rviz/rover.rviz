@@ -1,0 +1,54 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1.0
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 160
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Cell Size: 0.5
+      Plane Cell Count: 20
+      Plane Size: 5
+      Reference Frame: <Fixed Frame>
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+      Show Axes: true
+      Show Names: true
+      Marker Scale: 0.1
+    - Alpha: 1.0
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RoverModel
+      Robot Description: robot_description
+      TF Prefix: 
+      Visual Enabled: true
+      Collision Enabled: false
+      Show Link Names: false
+      Update Topic: /robot_description
+  Enabled: true
+  Name: Root
+  Global Options:
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+      Name: Move Camera
+    - Class: rviz_default_plugins/Select
+      Name: Select
+    - Class: rviz_default_plugins/Measure
+      Name: Measure
+    - Class: rviz_default_plugins/FocusCamera
+      Name: Focus Camera
+    - Class: rviz_default_plugins/SetInitialPose
+      Name: Set Initial Pose
+    - Class: rviz_default_plugins/SetGoal
+      Name: Set Goal
+    - Class: rviz_default_plugins/Interact
+      Name: Interact
+  Window Geometry:
+    Height: 1024
+    Width: 1280
+    X: 0
+    Y: 0
